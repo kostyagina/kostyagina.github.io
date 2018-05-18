@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+  </head>
+
+  <body>
+    <header>
+      <img src="../img/logo.png" alt title width="130" height="130">
+      <a href="" class="fon"></a>
+      <img src="../img/head.png" alt title width="500" height="140">
+
+
+      <ul class="nav">
+        <li><a href="menu.html">Меню</a> </li>
+        <li><a href="../index.html">Главная</a></li>
+        <li> <a href="catalog.html">Каталог</a> </li>
+        <li> Контакты </li>
+      </ul>
+    </header>
+
+    <hr>
+    <h1>Напишите нам</h1>
+
+    <form action="mailto:art@kostyagina.com" name="test" method="post">
+      <fieldset>
+        <legend>Форма для обратной связи</legend>
+        <p> <input type="text" name="text" size="31" placeholder="Введите имя" required style="outline: none; padding-left: 5px">*</p>
+        <p> <input type="email" name="email" size="31" placeholder="Введите email" required style="outline: none; padding-left: 5px">*</p>
+        <p> <input type="text" name="text2" size="31" placeholder="Введите текст" required style="outline: none; padding-left: 5px"></p>
+        <p> <textarea rows="6" cols="33" name="text" placeholder="Напишите коментарий" required style="outline: none; padding-left: 5px"> </textarea> </p>
+        <p>*-обязательные поля</p>
+        <p>
+          <input type="reset" value="Сбросить">
+          <input type="submit" value="Отправить">
+        </p>
+      </fieldset>
+    </form>
+
+    <h2>Наш адрес</h2>
+    <div itemscope itemtype="http://schema.org/Organization">
+      <span itemprop="name">Интернет-магазин б/у книг</span> <br /> Контакты:
+      <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        Адрес:
+        <span itemprop="streetAddress">ул. Алабяна, д. 10 корп.6</span>
+        <span itemprop="postalCode"> 125080</span>
+        <span itemprop="addressLocality">Москва</span>,
+      </div>
+      Телефон:<span itemprop="telephone">+7 495 198–45–00</span>, Электронная почта: <span itemprop="email">art@kostyagina.com</span>
+    </div>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2242.560337283017!2d37.50073721567481!3d55.80087198056626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b5484cc82e8d3b%3A0xf3275e74bd6fe9d4!2z0YPQuy4g0JDQu9Cw0LHRj9C90LAsIDEwINC60L7RgNC_0YPRgSA2LCDQnNC-0YHQutCy0LAsIDEyNTA4MA!5e0!3m2!1sru!2sru!4v1525695691775"
+      width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <hr>
+
+    <footer>
+      <p> &copy; Все права защищены</p>
+    </footer>
+
+  </body>
+
+</html>
